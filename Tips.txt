@@ -15,3 +15,5 @@ cmd管理员运行：sc config i8042prt start= disabled重启电脑
 恢复win11桌边右键菜单为win10
 开启旧版右键菜单：reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve 
 恢复windows11新版右键菜单：reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f  
+
+------------------------end
