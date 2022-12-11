@@ -21,3 +21,4 @@ cmd管理员运行：sc config i8042prt start= disabled重启电脑
 恢复windows11新版右键菜单：reg delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f  
 
 ------------------------end
+我在dev分支修改
