@@ -1,16 +1,20 @@
 获取当前路径
 char *_getcwd(char *buffer, int maxlen); //ANSI版本
 wchar_t *_wgetcwd(wchar_t *buffer, int maxlen ); //Unicode版本
+----------------------------------
 
 Cmake脚本执行
 ::debug
 D:\CMake\CMake\bin\cmake.exe C:\workspace\SB -G "Visual Studio 16" -A x64 -B C:\workspace\SB\build_debug -D QT_DIR=D:\Qt\5.15.2\msvc2019_64
 ::release
 D:\CMake\CMake\bin\cmake.exe C:\workspace\SB -G "Visual Studio 16" -A x64 -B C:\workspace\SB\build_release -D QT_DIR=D:\Qt\5.15.2\msvc2019_64 -DCMAKE_BUILD_TYPE=RelWithDebInfo
+---------------------------
 
 禁用笔记本自带键盘
 cmd管理员运行：sc config i8042prt start= disabled重启电脑
 恢复：sc config i8042prt start= demand
+
+----------------------
 
 恢复win11桌边右键菜单为win10
 开启旧版右键菜单：reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve 
